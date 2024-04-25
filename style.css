@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.img_container {
+  height: 50vh;
+  background: #86a7fc;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img:hover {
+  background-color: black;
+}
+.img-1 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(./img/stone.jpeg);
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 27px;
+}
+.img-2 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(./img/paper.jpg);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position-x: 40px;
+  background-position-y: 27px;
+}
+.img-3 {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(./img/scissor.jpg);
+  background-size: 170px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 27px;
+}
+/* Top  */
+.top {
+  height: 10vh;
+  background: #3468c0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+/*   Score  */
+.score_container {
+  height: 20vh;
+  background: #647d87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+/* msg container */
+.msg p {
+  font-family: cursive;
+  color: #11009e;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 900;
+  background-color: #80bcbd;
+  display: inline;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.msg {
+  padding-top: 20px;
+}
+.msg-container {
+  height: 20vh;
+  background: #647d87;
+  display: flex;
+  justify-content: center;
+}
